@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ChevronDown, Gamepad, Shield, VrHeadset } from 'lucide-react';
+import { ChevronDown, Gamepad, Shield, Headset } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const HeroSection = () => {
@@ -21,7 +21,7 @@ const HeroSection = () => {
           className="inline-block mb-6"
         >
           <span className="px-4 py-1.5 rounded-full bg-vr-purple/20 border border-vr-purple/30 text-sm font-medium text-vr-purple-light inline-flex items-center">
-            <VrHeadset size={16} className="mr-2" />
+            <Headset size={16} className="mr-2" />
             Meta Quest Exclusive
           </span>
         </motion.div>
@@ -75,7 +75,7 @@ const HeroSection = () => {
           {[
             { icon: <Shield size={18} className="mr-2" />, text: "Strategic Gameplay" },
             { icon: <Gamepad size={18} className="mr-2" />, text: "Full VR Immersion" },
-            { icon: <VrHeadset size={18} className="mr-2" />, text: "Meta Quest Optimized" }
+            { icon: <Headset size={18} className="mr-2" />, text: "Meta Quest Optimized" }
           ].map((feature, index) => (
             <div key={index} className="flex items-center px-4 py-2 rounded-full bg-white/5 backdrop-blur-sm border border-white/10">
               {feature.icon}

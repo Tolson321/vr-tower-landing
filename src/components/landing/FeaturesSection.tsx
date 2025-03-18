@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Shield, Target, Gamepad, Zap, VrHeadset, Crosshair } from 'lucide-react';
+import { Shield, Target, Gamepad, Zap, Headset, Crosshair } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const features = [
@@ -30,7 +30,7 @@ const features = [
     color: "from-vr-blue/20 to-vr-blue/5"
   },
   {
-    icon: <VrHeadset className="w-10 h-10 text-vr-purple" />,
+    icon: <Headset className="w-10 h-10 text-vr-purple" />,
     title: "Full 360° Immersion",
     description: "Experience battles from any angle with complete freedom to move and interact with your defenses.",
     color: "from-vr-purple/20 to-vr-purple/5"
