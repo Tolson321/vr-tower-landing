@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { VrHeadset } from 'lucide-react';
+import { Headset } from 'lucide-react';
 
 const CTASection = () => {
   return (
@@ -24,7 +24,7 @@ const CTASection = () => {
             {/* Circular glow */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 rounded-full bg-vr-purple/20 blur-[100px] pointer-events-none"></div>
             
-            <VrHeadset size={48} className="text-vr-purple mb-6" />
+            <Headset size={48} className="text-vr-purple mb-6" />
             
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
